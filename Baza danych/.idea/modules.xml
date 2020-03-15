@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidApps-Baza danych.iml" filepath="$PROJECT_DIR$/AndroidApps-Baza danych.iml" group="Baza danych" />
       <module fileurl="file://$PROJECT_DIR$/Baza danych.iml" filepath="$PROJECT_DIR$/Baza danych.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Baza danych-app.iml" filepath="$PROJECT_DIR$/app/Baza danych-app.iml" group="Baza danych/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

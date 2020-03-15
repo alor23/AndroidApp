@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mixer.iml" filepath="$PROJECT_DIR$/Mixer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Apka Muzyczna.iml" filepath="$PROJECT_DIR$/Apka Muzyczna.iml" group="Apka Muzyczna" />
+      <module fileurl="file://$PROJECT_DIR$/app/Apka Muzyczna-app.iml" filepath="$PROJECT_DIR$/app/Apka Muzyczna-app.iml" group="Apka Muzyczna/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

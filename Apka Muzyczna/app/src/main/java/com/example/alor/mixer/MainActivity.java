@@ -190,6 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 s +=readstring;
             }
             InputRead.close();
+            wczytaj.setText(s);
             for (int i=0;i<s.length();i++)
             {
                 sound=0;
@@ -218,11 +219,9 @@ public class MainActivity extends AppCompatActivity {
                 {
                     sound=sound6;
                 }
-
                 playSound(this,sound);
+                Thread.sleep(500);
             }
-
-            wczytaj.setText(s);
         }
         catch (Exception e)
         {

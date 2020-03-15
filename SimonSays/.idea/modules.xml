@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidApps-SimonSays.iml" filepath="$PROJECT_DIR$/AndroidApps-SimonSays.iml" group="SimonSays" />
       <module fileurl="file://$PROJECT_DIR$/SimonSays.iml" filepath="$PROJECT_DIR$/SimonSays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SimonSays-app.iml" filepath="$PROJECT_DIR$/app/SimonSays-app.iml" group="SimonSays/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

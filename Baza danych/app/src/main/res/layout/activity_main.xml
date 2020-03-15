@@ -8,8 +8,8 @@
 
     <TableLayout
         android:id="@+id/tableLayout"
-        android:layout_width="591dp"
-        android:layout_height="815dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
@@ -170,8 +170,9 @@
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="3"
                 android:text="Usuń imię:"
                 android:textAllCaps="false"
                 android:textIsSelectable="false"
@@ -182,7 +183,7 @@
                 android:id="@+id/deleteimietext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:textAllCaps="false"
@@ -194,7 +195,7 @@
                 android:id="@+id/deletebutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.5"
                 android:text="DELETE"
                 android:textIsSelectable="false" />
 
@@ -208,7 +209,7 @@
                 android:id="@+id/spinner"
                 android:layout_width="108dp"
                 android:layout_height="37dp"
-                android:layout_weight="0"
+                android:layout_weight="4"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown"
                 tools:layout_editor_absoluteX="604dp"
@@ -218,7 +219,7 @@
                 android:id="@+id/searchimie"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:textAllCaps="false"
@@ -230,7 +231,7 @@
                 android:id="@+id/search"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0.5"
                 android:text="SEARCH"
                 android:textIsSelectable="false" />
 
@@ -238,7 +239,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <CheckBox
                 android:id="@+id/check"

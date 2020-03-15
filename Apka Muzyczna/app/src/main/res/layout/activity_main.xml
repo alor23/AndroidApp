@@ -7,8 +7,8 @@
     tools:context="com.example.alor.mixer.MainActivity">
 
     <LinearLayout
-        android:layout_width="585dp"
-        android:layout_height="826dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="2dp">
@@ -16,7 +16,7 @@
         <Button
             android:id="@+id/Sound1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="A"
@@ -25,7 +25,7 @@
         <Button
             android:id="@+id/Sound2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="B"
@@ -34,7 +34,7 @@
         <Button
             android:id="@+id/Sound3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="C"
@@ -43,7 +43,7 @@
         <Button
             android:id="@+id/Sound4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="D"
@@ -52,7 +52,7 @@
         <Button
             android:id="@+id/Sound5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="E"
@@ -61,7 +61,7 @@
         <Button
             android:id="@+id/Sound6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="GrajSound"
             android:text="F"
@@ -70,29 +70,29 @@
         <TextView
             android:id="@+id/text1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="36sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="10dp"
-            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/Save"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
                 android:onClick="Write"
                 android:text="Zapisz" />
 
             <Button
                 android:id="@+id/Load"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
                 android:onClick="Read"
                 android:text="Wczytaj" />
         </LinearLayout>
